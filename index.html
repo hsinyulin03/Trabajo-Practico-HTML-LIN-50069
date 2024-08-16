@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP HTML-LIN-50069</title>
+</head>
+<body>
+    <header style="background-color:rgb(140, 191, 194); height: 200px;">
+        <h1>Encabezado Principal</h1>
+        <nav >
+            <ul>
+             <li><a href="#encabezadoPropiedades">Encabezados y Propiedades de texto</a></li>
+             <li><a href="#enlaceylistas">Enlaces y Listas</a></li>
+             <li><a href="#elementosMultimedia">Elementos Multimedia</a></li>
+             <li><a href="#tablas">Tablas</a></li>
+             <li><a href="#formularios">Formularios</a></li>
+             <li><a href="#articulo">Articulo</a></li>
+             <li><a href="#informacionRelacionada">Informacion Adicional</a></li>
+            </ul>
+         </nav>
+
+    </header>
+   
+    <main>
+        <section id ="encabezadoPropiedades">
+            <h1>Encabezados y Propiedades del Texto</h1>
+            <h1>Este es un h1</h1>
+            <h2>Este es un h2</h2>
+            <h3>Este es  un h3</h3>
+            <h4>Este es un h4</h4>
+            <h5>Este es  un h5</h5>
+            <h6>Este es un h6</h6>
+            <b>Este es un texto en negrita</b><br>
+            <em style="color: rgb(255, 7, 226)">Este es un texto en cursiva</em><br>
+            <u style="background-color: rgb(165, 255, 241);">Este es un texto subrayado con un background color aplicando style </u><br>
+        </section>
+
+        <section>
+            <h2>Divisiones y Agrupación de Contenido</h2>
+        <div>
+            <h4>Seccion 1</h4>
+            <p>Contenido de la primera sección agrupada en div</p>
+        </div>
+
+        <div>
+            <h4>Seccion 2</h4>
+            <p>Contenido de la segunda sección agrupada en div </p>
+        </div>
+        </section>
+        <section id="enlaceylistas">
+            <h2>Enlaces y Listas</h2>
+            <nav >
+               <p>Visita nuestro  <a href="https://www4.frm.utn.edu.ar/" target="_blank">sitio web</a> para más información</p>
+               <p>Enlaces Internos</p>
+               <ul>
+                
+                <li><a href="#encabezadoPropiedades">Ir a Encabezados y Propiedades de texto</a></li>
+                <li><a href="#enlaceylistas">Ir a Enlaces y Listas</a></li>
+                <li><a href="#elementosMultimedia">Ir a Elementos Multimedia</a></li>
+                <li><a href="#tablas">Ir a Tablas</a></li>
+                <li><a href="#formularios">Ir a Formularios</a></li>
+                <li><a href="#articulo">Ir a Articulo</a></li>
+                <li><a href="#informacionRelacionada">Ir a Informacion Adicional</a></li>
+
+               </ul>
+            </nav>
+            <p>Lista desordenada:</p>
+            <ul>
+                <li>Primer ítem de una lista desordenada</li>
+                <li>Segunda ítem de una lista desordenada</li>
+            </ul>
+            <p>Lista ordenada:</p>
+            <ol>
+                <li>Primer ítem de una lista ordenada</li>
+                <li>Segunda ítem de una lista ordenada</li>
+            </ol>
+        </section>
+
+        <section id="elementosMultimedia">
+            <h2>Elementos Multimedia</h2>
+            <p>Imagenes</p>
+              <img src="./img/puente de inca.jpg" alt="Puente de Inca-Mendoza" loading="lazy"width="410" height="300" >
+              <img src="./img/viñedo.jpg" alt="Viñedo de Mendoza" loading="loading="lazy" width="410" height="300">
+              <img src="./img/mendoza.jpg" alt="Porton de parque San Martín" loading="lazy" width="410" height="300">
+            <p>Video</p>
+            <video src="./video/1-Minute Nature Background Sound.mp4" controls width="410" height="300"></video>
+            <p>Audio</p>
+            <audio src="./audio/Legend From Heaven - City Lights.mp3" controls></audio>
+
+        </section>
+
+        <section id="tablas">
+           <style>
+                table{
+                    width: 20%;
+                    border-collapse: collapse;
+                    font-size: 18px;
+                    text-align: left;
+                }
+                th, td {
+                padding: 5px;
+                border: 1px solid #000000;
+            
+                }
+               
+                th {
+                background-color: #f2f2f2;
+                }
+
+           </style>
+            <h2>Tablas</h2>
+            <table>
+                <thead >
+                    <tr border: 1px solid black;>
+                        <th>Columna1</th>
+                        <th>Columna2</th>
+                    </tr>
+
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Dato1</td>
+                    <td>Dato2</td>
+                  </tr>  
+                   <tr>
+                    <td>Dato3</td>
+                    <td>Dato4</td>
+                   </tr>
+                    
+
+                </tbody>
+
+            </table>
+
+        </section>
+        <section id="formularios">
+            <h2>Formularios</h2>
+            <form action="">
+                <label for=""> Nombre: </label>
+                <input type="text" placeholder="Nombre">
+                <label for=""> Apellido: </label>
+                <input type="email" placeholder="example@email.com">
+                <label for=""> Mensaje: </label>
+                <textarea></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+
+        </section>
+        <article id="articulo">
+            <h2>Artículo</h2>
+            <p>Este es el contenido principal del artículo.</p>
+            <aside id="informacionRelacionada">
+                <h2>Información Relacionada</h2>
+                <p>Este es un cuadro de información adicional relacionado con el artículo.</p>
+            </aside>
+        </article>
+
+    </main>
+
+    <footer  style="background-color: rgb(140, 191, 194); height: 100px; color: #000000; font-size: 16px; font-weight: 500; line-height: 1.2">
+        <p>2024 Trabajo Práctico de HTML</p>
+        <p>Hsin Yu Lin </p>
+        <p>50069</p>
+    </footer>
+</body>
+</html>
