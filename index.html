@@ -23,6 +23,12 @@
     </header>
    
     <main>
+        <section id="Estructura">
+            <h1>Estructura Básica del Documento HTML</h1>
+            <!-- Este documento HTML tiene una estructura basica que incluye la declaracion de DOCTYPE, etiquetas de metadatos y un titulo -->
+        </section>
+
+
         <section id ="encabezadoPropiedades">
             <h1>Encabezados y Propiedades del Texto</h1>
             <h1>Este es un h1</h1>
@@ -33,11 +39,13 @@
             <h6>Este es un h6</h6>
             <b>Este es un texto en negrita</b><br>
             <em style="color: rgb(255, 7, 226)">Este es un texto en cursiva</em><br>
-            <u style="background-color: rgb(165, 255, 241);">Este es un texto subrayado con un background color aplicando style </u><br>
+            <mark>Este es un texto resaltado</mark><br>
+            <u >Este es un texto subrayado</u><br>
+            <p>Este es un texto con <span style="color: palevioletred;">estilo en cierta parte del texto</span> haciendo uso de la etiqueta span y la etiqueta style</p>
         </section>
 
         <section>
-            <h2>Divisiones y Agrupación de Contenido</h2>
+            <h1>Divisiones y Agrupación de Contenido</h1>
         <div>
             <h4>Seccion 1</h4>
             <p>Contenido de la primera sección agrupada en div</p>
@@ -49,10 +57,10 @@
         </div>
         </section>
         <section id="enlaceylistas">
-            <h2>Enlaces y Listas</h2>
+            <h1>Enlaces y Listas</h1>
             <nav >
                <p>Visita nuestro  <a href="https://www4.frm.utn.edu.ar/" target="_blank">sitio web</a> para más información</p>
-               <p>Enlaces Internos</p>
+               <h4>Enlaces Internos</h4>
                <ul>
                 
                 <li><a href="#encabezadoPropiedades">Ir a Encabezados y Propiedades de texto</a></li>
@@ -65,12 +73,12 @@
 
                </ul>
             </nav>
-            <p>Lista desordenada:</p>
+            <h4>Lista desordenada:</h4>
             <ul>
                 <li>Primer ítem de una lista desordenada</li>
                 <li>Segunda ítem de una lista desordenada</li>
             </ul>
-            <p>Lista ordenada:</p>
+            <h4>Lista ordenada:</h4>
             <ol>
                 <li>Primer ítem de una lista ordenada</li>
                 <li>Segunda ítem de una lista ordenada</li>
@@ -78,14 +86,14 @@
         </section>
 
         <section id="elementosMultimedia">
-            <h2>Elementos Multimedia</h2>
-            <p>Imagenes</p>
+            <h1>Elementos Multimedia</h1>
+            <h4>Imagenes</h4>
               <img src="./img/puente de inca.jpg" alt="Puente de Inca-Mendoza" loading="lazy"width="410" height="300" >
               <img src="./img/viñedo.jpg" alt="Viñedo de Mendoza" loading="loading="lazy" width="410" height="300">
               <img src="./img/mendoza.jpg" alt="Porton de parque San Martín" loading="lazy" width="410" height="300">
-            <p>Video</p>
+            <h4>Video</h4>
             <video src="./video/1-Minute Nature Background Sound.mp4" controls width="410" height="300"></video>
-            <p>Audio</p>
+            <h4>Audio</h4>
             <audio src="./audio/Legend From Heaven - City Lights.mp3" controls></audio>
 
         </section>
@@ -135,7 +143,7 @@
 
         </section>
         <section id="formularios">
-            <h2>Formularios</h2>
+            <h1>Formularios</h1>
             <form action="">
                 <label for=""> Nombre: </label>
                 <input type="text" placeholder="Nombre">
